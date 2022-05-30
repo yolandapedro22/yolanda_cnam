@@ -1,128 +1,82 @@
-header{
-	width: 80%;
-	vertical-align: center;
-	border: 10px solid #ccc;
-	border-radius: 10px;
-	
+﻿@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    font-family: 'Roboto', sans-serif;
 }
 
-#banniere{
-	background-image: url("banniere.png");
-    height: 100px;
-	width: 50%;
-	margin: auto;
-    
-	}	
-
-h1{
-   color: red;
-   font-size: 25px;
+form {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 40px 60px;
+    border-radius: 10px;
+    min-width: 300px;
 }
 
+    form h1 {
+        color: #eb7371;
+        text-align: center;
+    }
 
-h2{
-	color: orange;
-
-font-size: 25px;
+h2 {
+    color: #eb7371;
+    text-align: center;
 }
 
-p{
-	color: #811453;
-	font-size: 18px;
-	text-align: justify; 
+form .social-media {
+    margin-top: -10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
+    form .social-media p {
+        padding: 5px;
+        margin-left: 10px;
+        border: 1px solid #545454;
+        border-radius: 100%;
+        width: 20px;
+        text-align: center;
+        cursor: pointer;
+    }
 
-
-
-img{
-	width: 400px;
-    height: 400px;
-	
+form p.choose-email {
+    text-align: center;
 }
 
-
-#nav {
-	padding: 0; margin: 0;
-	text-align: center;
+form .inputs {
+    display: flex;
+    flex-direction: column;
 }
 
+    form .inputs input[type="email"], input[type="password"] {
+        padding: 15px;
+        border-radius: 5px;
+        border: none;
+        background-color: #f2f2f2;
+        margin-bottom: 15px;
+        outline: none;
+    }
 
-
-#nav li { 
-      display: inline;
-	  list-style:none;
-	
+form p.inscription {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #878787;
 }
 
-#nav a{
-	display: inline-block;
-	margin: 20 40 3 40px;
-	background: Black;
-	width: 120px;
-	text-decoration: none;
-	color: red;
-	height: 30px;
-	line-height: 3 50 3 50px; 
-	padding: 0 50px;
-	font-family: sans-serif;
-	font-size: 28px;
-}
+    form p.inscription span {
+        color: #eb7371;
+    }
 
-#nav a: hover:first-child{background: white
-
+form button {
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    color: #fff;
+    background-color: #eb7371;
+    outline: none;
 }
-
-#nav a:hover { background: gold;}
-	
-	table{
-		border: 2px solid black;
-	}
-caption{
-	font-size: 30px;
-	color: #FD6C9E;
-	text-decoration: underline;
-	padding-bottom: 10px;
-		
-}
-
-th{
-	background-color: #9E9E9E;
-	height: 45px;
-	border: ridge 1.5px;
-	color: #EFEFEF;
-	
-}
-
-#interv{
-	background-color: pink;   
-	
-}
-
-#tel { 
-	background-color: green; 
-}	
-	
-		
-tr { background-color: yellow;
-	
-} 
-	
- td{
-        border: 2px dotted red; 		 
-	
-}
-
-footer { 
-        background: black;
-		width:90%;
-		justify-content: ceneter;
-		padding: 30px;
-		margin-left: auto;
-		margin-right: auto;
-}
-#p1{
-	font-size: 28px;
-	color: white;
-}
-
